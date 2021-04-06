@@ -448,18 +448,17 @@ body {
     padding-left: 20px;
 }
 .red_small_title{
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 14px;
     color: rgb(209, 127, 127);
 }
 .red_big_title{
-    padding: 30px 0;
+    padding: 25px 0;
   
 }
 .text {
     font-size: 14px;
     line-height: 1.8;
-    padding-bottom: 10px;
     font-style: italic;
 }
 .text_item {

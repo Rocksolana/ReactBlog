@@ -3,8 +3,8 @@ import logo from './logo.png'
  
 const Logo = () => {
     return (
-        <div className="logo">
-        <img src={logo} alt="Logo"/>
+        <div>
+        <img src={logo} alt="Logo" className="logo"/>
         </div>
     )
  }

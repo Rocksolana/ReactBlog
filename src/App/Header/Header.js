@@ -12,7 +12,7 @@ const Header = () =>{
         <div className="dark">
             <div className="conteiner">
                 <div className="row header-row">
-                    <div className="col-sm-3 col-xs-hidden">
+                    <div className="col-sm-3">
                             <Logo/>
                          </div>
                     <div className="col-sm-9">

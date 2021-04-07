@@ -4,7 +4,6 @@ import Designer_item from './Designer_item'
 import './main.css'
 
 
-
 const Main = () => {
     return (
         <>

@@ -21,20 +21,20 @@ const ColoredLine = ({ color }) => (
 const Content = () => {
     return (
         <>
-        <section class="blog_item">
-        <div class="conteiner">
-            <div class="row header-row">
-                <div class="col-sm-12">
-                    <div class="take_item">
-                        <div class="col-sm-6">
-                            <div class="category">
+        <section className="blog_item">
+        <div className="conteiner">
+            <div className="row header-row">
+                <div className="col-sm-12">
+                    <div className="take_item">
+                        <div className="col-sm-6">
+                            <div className="category">
                             Category : Our latest Divi Child Theme
                             </div>
-                            <div class="red_title">
+                            <div className="red_title">
                                 Rebel Divi Coaching Theme
                             </div>
                             <ColoredLine color="rgb(209, 127, 127)"/>
-                            <div class="text_item">
+                            <div className="text_item">
                                 You are a Rebel and need a website that stands out from the rest. A dark, moody, chic
                                 bohemian inspired Divi Child Theme.
                                 
@@ -43,9 +43,9 @@ const Content = () => {
                                 softly complimented with a feminine script font. Why be average, when you can stand out
                                 from the crowd?
                             </div>
-                            <button class="btn" id="btn-place"> Read more </button>
+                            <button className="btn" id="btn-place"> Read more </button>
                         </div>
-                        <div class="col-sm-6">
+                        <div className="col-sm-6">
                            <ContentImage/>
                         </div>
 
@@ -53,54 +53,54 @@ const Content = () => {
                 </div>
 
             </div>
-            <div class="row header-row">
-                <div class="col-sm-12">
-                    <div class="take_item">
-                        <div class="col-sm-6">
+            <div className="row header-row">
+                <div className="col-sm-12">
+                    <div className="take_item">
+                        <div className="col-sm-6">
                             <SecondContentImage/>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="category">
-                                Feminine Divi Child Theme
+                        <div className="col-sm-6">
+                            <div className="category">
+                            Category : Feminine Divi Child Theme
                             </div>
-                            <div class="red_title">
-                            Category : Collaborate Divi Coaching Theme
+                            <div className="red_title">
+                             Collaborate Divi Coaching Theme
                             </div>
                             <ColoredLine color="rgb(209, 127, 127)"/>
-                            <div class="text_item">
-                                Beautiful, fun feminine Divi Child Theme that is elegant and classy. Coaches! You need a
+                            <div className="text_item">
+                                Beautiful, fun feminine Divi Child Theme that is elegant and classNamey. Coaches! You need a
                                 professional
                                 online image and what better way to schmooz your clients with all this gorgeousness.
                                 Built for creative digital businesses who are original and are wanting to add their
                                 own personality to their website.
                             </div>
-                            <button class="btn" id="btn-place"> Read more </button>
+                            <button className="btn" id="btn-place"> Read more </button>
                         </div>
 
                     </div>
                 </div>
             </div>
-            <div class="row header-row">
-                <div class="col-sm-12">
-                    <div class="take_item">
-                        <div class="col-sm-6">
-                            <div class="category">
+            <div className="row header-row">
+                <div className="col-sm-12">
+                    <div className="take_item">
+                        <div className="col-sm-6">
+                            <div className="category">
                             Category : Best Selling Divi Child Theme
                             </div>
-                            <div class="red_title">
+                            <div className="red_title">
                                 Engage Divi Coaching Theme
                             </div>
                             <ColoredLine color="rgb(209, 127, 127)"/>
-                            <div class="text_item">
+                            <div className="text_item">
                                 Engage those visitors of yours with this bold, striking Divi Coaching Child Theme.
                                 Engage is a
                                 Divi custom designed child theme layout for business owners, podcasters and social media
                                 entrepreneurs.
                                 One of our top selling Divi Themes- so join the crowd that oozes confidence.
                             </div>
-                            <button class="btn" id="btn-place"> Read more </button>
+                            <button className="btn" id="btn-place"> Read more </button>
                         </div>
-                        <div class="col-sm-6">
+                        <div className="col-sm-6">
                           <ThirdContentImage/>
                         </div>
 
@@ -108,28 +108,28 @@ const Content = () => {
                 </div>
 
             </div>
-            <div class="row header-row">
-                <div class="col-sm-12">
-                    <div class="take_item">
-                        <div class="col-sm-6">
+            <div className="row header-row">
+                <div className="col-sm-12">
+                    <div className="take_item">
+                        <div className="col-sm-6">
                             <FourthContentImage/>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="category">
+                        <div className="col-sm-6">
+                            <div className="category">
                             Category : Panache Divi Child Theme
                             </div>
-                            <div class="red_title">
+                            <div className="red_title">
                                 Panache Divi Coaching Theme
                             </div>
                             <ColoredLine color="rgb(209, 127, 127)"/>
-                            <div class="text_item">
+                            <div className="text_item">
                                 Panache is a feminine, premium Divi child theme created for small biz
                                 entrepreneurs and business women. This Divi child theme is largely built
                                 for coaches, copywriters, virtual assistants and social media guru’s.
                                 We have included a free landing page layout for your online course sales
                                 pages and to market your coaching courses.
                             </div>
-                            <button class="btn" id="btn-place"> Read more </button>
+                            <button className="btn" id="btn-place"> Read more </button>
                         </div>
                     </div>
                 </div>

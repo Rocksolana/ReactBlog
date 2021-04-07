@@ -4,6 +4,7 @@ import '../style.css'
 import Header from './Header/Header'
 import Main from './Main/Main'
 import Footer from './Footer/Footer'
+import Content from './Content/Content'
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
        <>
         <Header/>
         <Main/>
+        <Content/>
         <Footer/>
        </>
     )

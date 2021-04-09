@@ -6,7 +6,7 @@ import secondcontentimage from './divi-theme-collaborate-01-480x299.png'
 const SecondContentImage = () => {
     return (
         <div>
-           <img src={secondcontentimage} alt="Logo" class="blog_image"/>
+           <img src={secondcontentimage} alt="Logo" className="blog_image"/>
         </div>
     )
 }

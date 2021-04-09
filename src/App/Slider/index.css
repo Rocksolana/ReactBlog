@@ -101,7 +101,9 @@ h3 {
   } 
   .slick-next, .slick-prev {
       background: aliceblue;
-
   }
+  .slick-next:hover, .slick-prev:hover {
+    background: aliceblue;
+}
   
   

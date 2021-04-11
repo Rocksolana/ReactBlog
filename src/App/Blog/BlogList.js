@@ -27,7 +27,6 @@ const BlogList = () => {
                                 name={name}
                                 category={category}
                                 description={description}
-    
                                 image={image}
                             />
                         </div>    

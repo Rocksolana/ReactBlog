@@ -360,9 +360,12 @@ body {
     padding-top: 30px;
 }
 .category {
+    text-decoration: none;
     padding-top: 15px;
     font-size: 20px;
     font-weight: 700;
+    color:rgb(209, 127, 127);
+    
 }
 .red_title {
     font-size: 32px;

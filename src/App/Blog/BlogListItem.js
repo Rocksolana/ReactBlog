@@ -30,7 +30,7 @@ class BlogListItem extends Component {
                 <div>
                  <img src={image} alt={name} className="blog_image"/>
                 </div>
-                <div className="category">{category}</div>
+                <div><a href="/" className="category">{category}</a></div>
                 <div className="red_title">{name}</div>
                 <ColoredLine color="rgb(209, 127, 127)"/>
                 <div className="text_item">{description}</div>

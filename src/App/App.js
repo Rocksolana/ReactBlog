@@ -4,7 +4,7 @@ import '../common/reset.css'
 import '../style.css'
 import Header from './Header/Header'
 import Main from './Main/Main'
-import Content from './Content/Content'
+import BlogList from './Blog/BlogList'
 import Form from './Form/Form'
 import Footer from './Footer/Footer'
 import ReactSlickDemo from './Slider/Slider'
@@ -16,7 +16,7 @@ const App = () => {
        <>
         <Header/>
         <Main/>
-        <Content/>
+        <BlogList/>
         <ReactSlickDemo/>
         <Form/>
         <Footer/>

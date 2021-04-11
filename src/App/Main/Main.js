@@ -2,6 +2,7 @@ import React from 'react'
 import DesignerImage from './DesignerImage'
 import Designer_item from './Designer_item'
 import './main.css'
+import BlogNews from '../Blog/BlogNews/BlogNews'
 
 
 const Main = () => {
@@ -34,6 +35,7 @@ const Main = () => {
                         <div className="red_big_title">
                             Our Latest Feminine Divi Themes & Divi Coaching Themes
                         </div>
+                        
                     </div>
 
                 </div>

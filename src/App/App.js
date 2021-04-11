@@ -1,4 +1,3 @@
-
 import React from 'react'
 import '../common/reset.css'
 import '../style.css'
@@ -8,6 +7,7 @@ import BlogList from './Blog/BlogList'
 import Form from './Form/Form'
 import Footer from './Footer/Footer'
 import ReactSlickDemo from './Slider/Slider'
+import BlogNews from './Blog/BlogNews/BlogNews'
 
 
 
@@ -20,6 +20,7 @@ const App = () => {
         <ReactSlickDemo/>
         <Form/>
         <Footer/>
+        
        </>
     )
 }

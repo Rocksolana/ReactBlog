@@ -1,6 +1,10 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 import BlogListItem from "./BlogListItem"
 import blog from "./Blog"
+import BlogNews from "./BlogNews/BlogNews"
+
 
 
 const BlogList = () => {
@@ -32,13 +36,14 @@ const BlogList = () => {
                         </div>    
                     ))
                 }
+               <Route path="/Blog" component={BlogNews} />
+               </div>
             </div>
-            </div>
-            </div>
-            </div>
-            </div>
+         </div>
+      </div>
+  </div>
 
-        </>
+</>
 
     )
 }

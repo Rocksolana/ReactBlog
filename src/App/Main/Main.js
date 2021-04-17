@@ -1,8 +1,9 @@
 import React from 'react'
 import DesignerImage from './DesignerImage'
-import Designer_item from './Designer_item'
+import DesignerItem from './DesignerItem'
 import './main.css'
 import BlogNews from '../Blog/BlogNews/BlogNews'
+
 
 
 const Main = () => {
@@ -17,7 +18,7 @@ const Main = () => {
                             <DesignerImage/>
                         </div>
                         <div className="col-sm-8">
-                            <Designer_item/>
+                            <DesignerItem/>
                         </div>
                     </div>
                 </div>

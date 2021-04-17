@@ -2,8 +2,9 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import {Route} from 'react-router-dom'
 import BlogListItem from "./BlogListItem"
-import blog from "./Blog"
+import blogs from "./Blog"
 import BlogNews from "./BlogNews/BlogNews"
+
 
 
 
@@ -14,10 +15,8 @@ const BlogList = () => {
         <div className="conteiner">
             <div className="row header-row">
                 <div className="col-sm-12">
-                    <div className="take_item">
-                        
                 {
-                    blog.map(({
+                    blogs.map(({
                         id,
                         category,
                         name,
@@ -36,8 +35,8 @@ const BlogList = () => {
                         </div>    
                     ))
                 }
-               <Route path="/Blog" component={BlogNews} />
-               </div>
+              
+              
             </div>
          </div>
       </div>

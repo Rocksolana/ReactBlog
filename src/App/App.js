@@ -7,7 +7,8 @@ import BlogList from './Blog/BlogList'
 import Form from './Form/Form'
 import Footer from './Footer/Footer'
 import ReactSlickDemo from './Slider/Slider'
-import BlogNews from './Blog/BlogNews/BlogNews'
+
+
 
 
 

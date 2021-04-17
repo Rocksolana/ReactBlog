@@ -219,9 +219,7 @@ body {
         height: 605px;
         
     }
-    .blog_image {
-        width: 50%;
-    }
+    
     .btn_form {
         width: 70%;
     }
@@ -343,6 +341,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 20px 0 ;
     }
     
 .take_image {
@@ -389,9 +388,12 @@ body {
     background-color:rgb(163, 95, 95);
 }
 .blog_image {
-      padding:40px 0;
       justify-content: center;
       align-items: center;
       display: flex;   
+}
+.take_desr {
+    flex-wrap: wrap;
+    width: 50%;
 }
   

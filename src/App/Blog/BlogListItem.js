@@ -20,6 +20,7 @@ class BlogListItem extends Component {
 
     render() {
         const {
+            id,
             category,
             name,
             description,
@@ -27,17 +28,22 @@ class BlogListItem extends Component {
         } = this.props;
         
         return (
-            <div>
-                <div>
+            <>
+            <div className="take_item">
+               <div>
                  <img src={image} alt={name} className="blog_image"/>
-                </div>
+                 </div>
+                   <div className="take_desr">
                 <div><a href="/" className="category">{category}</a></div>
-                <div className="red_title">{name}</div>
+                <div className="red_title">
+                    <Link to={`/blogs/${id}`}>{name}</Link></div>
                 <ColoredLine color="rgb(209, 127, 127)"/>
                 <div className="text_item">{description}</div>
                 <button className="btn" id="btn-place"> Read more </button>
-                  <Link to="/Blog">Show</Link>
-            </div>
+                
+                  </div>
+                </div>
+            </>
         )
     }
 }
